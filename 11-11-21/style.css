@@ -8,6 +8,7 @@ body{
 h1 {
     text-align: center;
     color: red;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   }
 div p{
     color:black;
@@ -26,7 +27,9 @@ a:hover{
   }
 :link{
     color: black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 :visited{
     color: black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
