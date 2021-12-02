@@ -1,51 +1,75 @@
+p{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  
+}
 
 .flex-container {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: stretch;
-    align-content: center;
-    
-    
-    
-    
-  }
 
-  .flex-items{
-    background-color: brown;
-    padding-top: 250px;
-    padding-bottom: 250px;
-    padding-left: 100%;
-    padding-right: 100%;
-    border: 5px black solid; 
-    justify-content: center;
-      
-  }
+display: flex;
+flex-direction: row;
+flex-wrap: nowrap;
+width: 1200px;
+text-align: center;
+line-height: 250px;
+
+}
+
+.flex-items{
+  background-color: rgb(236, 203, 152);
+  height: 250px;
+  width: 100%;
   
-  .flex-items:nth-child(1) {
-    display: block;
-    flex-grow: 0;
-    flex-shrink: 1;
-    flex-basis: auto;
-    align-self: auto;
-    order: 0;
-  }
+}
+
+.main{
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+align-content: center;
+}
+
+.flex-items:nth-child(1) {
+  display: block;
+  flex-grow: 0;
+  flex-shrink: 1;
+  flex-basis: auto;
+  align-self: auto;
+  order: 0;
+  border-top: 10px  rgb(98, 121, 172) solid; 
+  border-left: 10px rgb(98, 121, 172) solid; 
+  border-bottom: 10px rgb(98, 121, 172) solid; 
+  border-right: 5px rgb(98, 121, 172) solid;
   
-  .flex-items:nth-child(2) {
-    display: block;
-    flex-grow: 0;
-    flex-shrink: 1;
-    flex-basis: auto;
-    align-self: auto;
-    order: 0;
-  }
   
-  .flex-items:nth-child(3) {
-    display: block;
-    flex-grow: 0;
-    flex-shrink: 1;
-    flex-basis: auto;
-    align-self: auto;
-    order: 0;
-  }
+  
+}
+
+.flex-items:nth-child(2) {
+  display: block;
+  flex-grow: 0;
+  flex-shrink: 1;
+  flex-basis: auto;
+  align-self: auto;
+  order: 0;
+  border-top: 10px rgb(98, 121, 172) solid; 
+  border-left: 5px rgb(98, 121, 172) solid; 
+  border-bottom: 10px rgb(98, 121, 172) solid; 
+  border-right: 5px rgb(98, 121, 172) solid; 
+  
+}
+
+.flex-items:nth-child(3) {
+  display: block;
+  flex-grow: 0;
+  flex-shrink: 1;
+  flex-basis: auto;
+  align-self: auto;
+  order: 0;
+  border-top: 10px rgb(98, 121, 172) solid; 
+  border-left: 5px rgb(98, 121, 172) solid; 
+  border-bottom: 10px rgb(98, 121, 172) solid; 
+  border-right: 10px rgb(98, 121, 172) solid; 
+  
+}
