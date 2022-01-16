@@ -60,3 +60,9 @@ div.cp{
     position: fixed;
     font-size: 14px;
 }
+a.three{
+    font-family: 'Courier New', Courier, monospace;
+    text-decoration: none;
+    cursor: default;
+    color: white;
+}
